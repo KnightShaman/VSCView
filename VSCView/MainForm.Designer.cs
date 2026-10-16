@@ -40,6 +40,7 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.hIDGuardianWhitelistToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiSetBackgroundColor = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiTransparentBackground = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiResetWindowSize = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
@@ -67,13 +68,14 @@
             this.toolStripSeparator2,
             this.hIDGuardianWhitelistToolStripMenuItem,
             this.tsmiSetBackgroundColor,
+            this.tsmiTransparentBackground,
             this.tsmiResetWindowSize,
             this.tsmiAbout,
             this.toolStripSeparator3,
             this.minimizeToolStripMenuItem,
             this.tsmiExit});
             this.cmsMain.Name = "cmsMain";
-            this.cmsMain.Size = new System.Drawing.Size(219, 330);
+            this.cmsMain.Size = new System.Drawing.Size(219, 352);
             // 
             // tsmiTheme
             // 
@@ -139,6 +141,13 @@
             this.tsmiSetBackgroundColor.Size = new System.Drawing.Size(218, 22);
             this.tsmiSetBackgroundColor.Text = "Set Background Color";
             this.tsmiSetBackgroundColor.Click += new System.EventHandler(this.tsmiSetBackgroundColor_Click);
+            // 
+            // tsmiTransparentBackground
+            // 
+            this.tsmiTransparentBackground.Name = "tsmiTransparentBackground";
+            this.tsmiTransparentBackground.Size = new System.Drawing.Size(218, 22);
+            this.tsmiTransparentBackground.Text = "Transparent Background";
+            this.tsmiTransparentBackground.Click += new System.EventHandler(this.tsmiTransparentBackground_Click);
             // 
             // tsmiResetWindowSize
             // 
@@ -246,5 +255,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiManualControllers;
         private System.Windows.Forms.ToolStripMenuItem tsmiAutoSelectOnlyController;
         private System.Windows.Forms.ToolStripMenuItem tsmiHackSCMotion;
+        private System.Windows.Forms.ToolStripMenuItem tsmiTransparentBackground;
     }
 }
